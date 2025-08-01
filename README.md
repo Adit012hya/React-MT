@@ -1,12 +1,41 @@
-# React + Vite
+# MovieFinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**MovieFinder** is a React-based movie dashboard that allows users to search, explore, and manage a favorites list of movies. Built using Vite, React, and React Router, it offers a smooth and responsive experience with clean, custom CSS styling.
 
-Currently, two official plugins are available:
+**Live Demo:** [https://react-mt.vercel.app](https://react-mt.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Search for movies by title
+- Add and view favorite movies
+- Smooth navigation with React Router
+- Fast development and build environment using Vite
+- Clean layout styled with plain CSS
+
+---
+
+## Tech Stack
+
+- React 19
+- Vite
+- React Router DOM
+- JavaScript (ES Modules)
+- Custom CSS
+
+---
+
+## Project Structure
+
+frontend/
+├── public/
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Main views like Home and Favorites
+│ ├── contexts/ # Global state management with Context API
+│ ├── css/ # Custom CSS styles
+│ └── main.jsx # Application entry point
+├── vite.config.js
+└── index.html
+
