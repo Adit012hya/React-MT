@@ -39,3 +39,7 @@ frontend/
 ├── vite.config.js
 └── index.html
 
+## Screenshots
+![photo_2026-03-04_20-04-sfsf](https://github.com/user-attachments/assets/16a347a8-4c41-4b8f-ba10-60b4d1a5450c)
+
+
